@@ -1,5 +1,7 @@
 # UET Portal Downloader
 
+**Tác giả:** XD4T
+
 Extension cho Chrome / Edge / Firefox giúp **tick chọn nhiều file** trên trang Files của môn học tại [portal.uet.vnu.edu.vn](https://portal.uet.vnu.edu.vn) và **tải về một lần**, không phải bấm từng file.
 
 ## Tính năng
@@ -56,4 +58,4 @@ Portal chạy trên nền Canvas LMS: link tên file có dạng `/files/<id>/dow
 
 ## License
 
-MIT
+MIT © XD4T

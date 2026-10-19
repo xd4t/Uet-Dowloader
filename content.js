@@ -63,7 +63,8 @@
       '<span class="uetdl-count">Đã chọn: 0</span>' +
       '<button data-a="all">Chọn tất cả</button>' +
       '<button data-a="none">Bỏ chọn</button>' +
-      '<button data-a="dl" style="font-weight:600">Tải đã chọn</button>';
+      '<button data-a="dl" style="font-weight:600">Tải đã chọn</button>' +
+      '<span style="font-size:11px;color:#888;margin-left:4px">by XD4T</span>';
     bar.addEventListener('click', async e => {
       const act = e.target.dataset && e.target.dataset.a;
       if (!act) return;
