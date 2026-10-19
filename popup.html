@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<style>
+  body { font: 14px system-ui, sans-serif; width: 240px; padding: 12px; margin: 0; }
+  label { display: flex; align-items: center; justify-content: space-between; cursor: pointer; font-weight: 600; }
+  input { width: 18px; height: 18px; }
+  p { color: #666; font-size: 12px; margin: 8px 0 0; }
+  #state { margin-top: 8px; font-size: 12px; }
+</style>
+</head>
+<body>
+  <label>Bật chọn file tải <input type="checkbox" id="toggle"></label>
+  <p>Mở trang Files của môn học, bật công tắc, rồi tick các file cần tải.</p>
+  <div id="state"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
